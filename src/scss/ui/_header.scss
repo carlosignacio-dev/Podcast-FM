@@ -1,0 +1,6 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.site-header {
+    @include m.bgImage("../img/header.jpg", v.$secundarioOpacity);
+}
